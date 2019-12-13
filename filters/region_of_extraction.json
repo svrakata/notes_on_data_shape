@@ -1,0 +1,34 @@
+[
+    "pollen",
+    "sheath",
+    "branch",
+    "sap",
+    "root",
+    "rhizome",
+    "fruit",
+    "seed",
+    "bark",
+    "leaf",
+    "flower",
+    "stem",
+    "tuberous",
+    "tuber",
+    "bud",
+    "peel",
+    "bulb", // short stem with fleshy leaves
+    "resin",
+    "shell",
+    "radix",
+    "spike",
+    "sclerotium", //A sclerotium, plural sclerotia, is a compact mass of hardened fungal mycelium containing food reserves. 
+    "shaft",
+    "corm",
+    "capitulum", // a dense flat cluster of small flowers or florets, as in plants of the daisy family
+    "hook",
+    "aril", // specialized outgrowth from a seed that partly or completely covers the seed
+    "calyx",
+    "pericarp",
+    "semen",
+    "syncarp",
+    "culm"
+]
