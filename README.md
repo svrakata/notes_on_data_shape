@@ -28,8 +28,19 @@ Problem with MeSH terms related to descriptor(heading) is that they include vari
 ### Logic
 
 * Obtain all the entries including nested with related terms/synonyms at particular branch
-* Search the tree from givven path (tree number)
+* Search the tree for given path (tree number)
 
-### What should happend
+### Working with CSV files
 
-1. Filter the kegg data from stop words, descriptive words: type of extract/extraction, variation of the entries with the same root, animal products promoting abusive behavior against animals
+* Proper tools for reading and writing CSV files using streams
+* CLI tools
+
+### Research on data sanitation
+
+* What are the specifics for cleaning the data
+* Remove empty lines?
+* remove quotes, headers?
+
+### Research on parsing
+
+* Found some books on parsing
