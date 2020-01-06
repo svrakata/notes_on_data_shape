@@ -8,7 +8,8 @@
 
 So far we have KEGG parser which returns data form environ and got basic parser for any kegg object but need to be extendet and more cases should be added
 Got list parser for environ and brite list parsers for few categories ---> Q: Can the list parser can be made universal, configurable or should I repeat the code for each brite category... most of the stuff are the same
-As data we got: 
+As data we got:
+
 * medicinal herbs with major components (not in the csv)
 * toxins
 * cancerogoens
@@ -37,18 +38,35 @@ Cancerogens, toxins, all the chemical compounds names should be cleaned somehow 
 Some of the entries, take for example "tea" in the medicinal herbs, are so broad as term that brings thousands of other entries which are far from related to herbs and medicinal herbs. So they should be excluded.
 
 Excluded entries:
+
+From KEGG
+
 * Hebrs
-    * Tea
-    * Senna
+  * Tea
+  * Senna
+
+From MeSH
+* Herbs
+    * broom
 
 Added entries:
+
+From KEGG
+
 * Herbs
-    * Tea Tree Oil
-    * Senna Plant
+  * Tea Tree Oil
+  * Senna Plant
+
+From MeSH
+
+* Herbs
+  * Butcher's broom
 
 In question:
+
 * Herbs
-    * Iceland moss: drags large list of fungi which may or may not be related to medicinal herbs
+  * Iceland moss: drags large list of fungi which may or may not be related to medicinal herbs
+
 
 ### Logic
 
@@ -69,5 +87,3 @@ In question:
 ### Research on parsing
 
 * Found some books on parsing
-
-
